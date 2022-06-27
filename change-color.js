@@ -1,3 +1,3 @@
-document.getElementById('colorbutton').addEventListener('click', function() {
+document.querySelector("#colorbutton").addEventListener("click", () => {
     document.body.style.backgroundColor = "red"
 })
